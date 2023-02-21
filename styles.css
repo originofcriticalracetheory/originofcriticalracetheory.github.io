@@ -1,8 +1,8 @@
 ul {
-list-style-type: none;
-padding:0;
-overflow: hidden;
-background-color: #ffffff;
+  list-style-type: none;
+  padding:0;
+  overflow: hidden;
+  background-color: #f2f2f2;
 }
 
 li {
@@ -18,43 +18,119 @@ li a {
 }
 
 li a:hover {
-  background-color: #f2f2f2;
+  background-color: gray;
 }
 
 a:link {
-color: indigo;
+  color: indigo;
 }
+
 a:visited {
-color: purple;
+  color: purple;
 }
+
 a:hover {
-color: fuchsia;
+  color: fuchsia;
 }
+
 a:active {
-color: #000000;
+  color: #000000;
 }
 
 body {
-background-color: #ffffff;
-margin-left: 22%;
-margin-right: 0;
-text-align: left;
-font-family: Lucida Sans;
-color: #000000;
-font-size: 100%;
+  background-color: #f2f2f2;
+  width: 80%;
+  heigth: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: helvetica;
+  color: #000000;
+  font-size: 1.2em;
+  border-style: none;
+}
+
+header {
+  background-color: #f2f2f2;
+  margin-left: 10%;
+  margin-right: 0%;
+  padding: 0%;
+  text-align: left;
+}
+
+main {
+  margin-left: 5%
+  width: 90%;
+  background-color: #f2f2f2;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-width: 1px;
+  border-color: #ffffff;
+}
+
+section {
+  background-color: #ffffff;
+  width: 80%;
+  margin-left: 10%;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-width: .5px;
+  border-color: #000000
+}
+
+article {
+  background-color: white;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 90%;
+  height: auto;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-width: 1px;
+  border-color: #f2f2f2
+}
+
+.banner {
+  float: left;
+  width: 80%;
+  length: auto;
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 img {
 float: left;
 margin-right: 20px;
 margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.imgpercentage {
+float: left;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-top: 20px;
+width: 60%;
+length: auto;
 }
 
 * {
 box-sizing: border-box;
 }
 
-section:after {
+section::after {
 content: "";
 display: table;
 clear: both;
@@ -68,26 +144,14 @@ h1 {
 font-size: 300%;
 }
 
-
 ul {
 list-style-type: none;
 }
 
-header {
-padding: 0%;
-text-align: left;
-}
-
-article {
-float: left;
-padding-left: 10px;
-padding-right: 10px;
-width: 70%;
-height: auto;
-}
-
 footer {
+margin-left: 10%;
+width: 80%;
 padding: 10px;
 text-align: left;
-font-size: 80%;
+font-size: 100%;
 }
