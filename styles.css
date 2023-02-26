@@ -1,3 +1,16 @@
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 1%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 ul {
   list-style-type: none;
   padding:0;
@@ -141,7 +154,8 @@ font-size: 150%;
 }
 
 h1 {
-font-size: 300%;
+font-variant-caps: small-caps;
+font-size: 350%;
 }
 
 ul {
